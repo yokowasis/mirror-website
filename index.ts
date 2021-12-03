@@ -26,4 +26,4 @@ goMirror();
 
 setTimeout(() => {
     goMirror();    
-}, 1000 * 60 * 10);
+}, 1000 * 60 * 60 * 3);
