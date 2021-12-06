@@ -24,6 +24,5 @@ function goMirror() {
 
 goMirror();
 
-setTimeout(() => {
-    goMirror();    
-}, 1000 * 60 * 60 * 3);
+// Repeat every 3 hours
+setInterval(goMirror, 10800000);
